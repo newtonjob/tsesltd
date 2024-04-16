@@ -9,16 +9,16 @@
                 <div class="content-column mb-lg-50 col-xl-6">
                     <div class="inner-column container-fluid">
                         <div class="sub-title wow fadeInUp" data-wow-delay="200ms">We Are Solar Energy Company</div>
-                        <h1 class="title wow fadeInUp" data-wow-delay="400ms">Harnessing the <br class="d-none d-xl-block">Energy of Wind <br class="d-none d-xl-block"> and Sun.</h1>
+                        <h1 class="title wow fadeInUp" data-wow-delay="400ms">Harnessing the <br class="d-none d-xl-block">Energy from <br class="d-none d-xl-block"> The Sun.</h1>
                         <div class="btn-box d-block d-sm-flex align-items-center wow fadeInUp" data-wow-delay="800ms">
                             <a href="page-about.html" class="theme-btn btn-style-one mb-3 mb-sm-0"><span class="btn-title">Discover More</span></a>
                             <div class="inner-box">
                                 <a class="d-sm-flex align-items-center" href="tel:+8898006802">
                                     <span class="icon fas fa-phone-flip"></span>
                                     <span>
-<span class="ib-subtitle">Call Anytime</span>
-<span class="ib-title">+ 88 ( 9800 ) 6802</span>
-</span>
+                                        <span class="ib-subtitle">Call Anytime</span>
+                                        <span class="ib-title">{{ site('phone') }}</span>
+                                    </span>
                                 </a>
                             </div>
                         </div>
@@ -141,15 +141,15 @@
 
                 <div class="image-column col-lg-6 col-md-12 col-sm-12">
                     <div class="inner-column wow fadeInLeft">
-                        <figure class="image-1 overlay-anim wow fadeInUp"><img src="{{ asset('images/resource/about-5.jpg') }}" alt></figure>
-                        <figure class="image-2 overlay-anim wow fadeInRight"><img src="{{ asset('images/resource/about-6.jpg') }}" alt></figure>
+                        <figure class="image-1 overlay-anim wow fadeInUp"><img src="{{ asset('images/resource/about-3.jpg') }}" alt></figure>
+                        <figure class="image-2 overlay-anim wow fadeInRight"><img src="{{ asset('images/resource/about-4.jpg') }}" alt></figure>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="bg-light pt-70">
+    <section class="pt-70" style="background-color: #f4f5f8">
         <div class="auto-container">
             <div class="sec-title text-center mb--20">
                 <span class="sub-title">Some Of Our Products</span>
@@ -266,7 +266,7 @@
                 <div class="image-column col-lg-6 col-md-12 col-sm-12">
                     <div class="inner-column">
                         <div class="image-box">
-                            <figure class="image"><img src="{{ asset('images/resource/image-6.jpg') }}" alt></figure>
+                            <figure class="image"><img src="{{ asset('images/resource/image-7.jpg') }}" alt></figure>
                             <div class="video-box wow fadeIn">
                                 <h4 class="title">Watch our video</h4>
                                 <img class="arrow-icon" src="{{ asset('images/icons/icon-arrow.png') }}" alt>
@@ -461,77 +461,6 @@
         </div>
     </section>
 
-    <section class="news-section">
-        <div class="auto-container">
-            <div class="sec-title text-center">
-                <span class="sub-title">from the blog</span>
-                <h2>News & Articles</h2>
-            </div>
-            <div class="row">
-
-                <div class="news-block col-lg-4 col-md-6 col-sm-12 wow fadeInUp">
-                    <div class="inner-box">
-                        <div class="image-box">
-                            <figure class="image"><a href="news-details.html"><img src="{{ asset('images/resource/news-4.jpg') }}" alt></a></figure>
-                            <span class="date"><b>28</b> OCT</span>
-                        </div>
-                        <div class="content-box">
-                            <ul class="post-info">
-                                <li><i class="fa fa-user"></i> by Admin</li>
-                                <li><i class="fa fa-tag"></i> Technology</li>
-                            </ul>
-                            <h4 class="title"><a href="news-details.html">Empowering the Energy Transition in the Asia</a></h4>
-                        </div>
-                        <div class="bottom-box">
-                            <a href="news-details.html" class="read-more">Read More <i class="fa fa-long-arrow-alt-right"></i></a>
-                            <div class="comments"><i class="fa fa-comments"></i> 02</div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="news-block col-lg-4 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay="300ms">
-                    <div class="inner-box">
-                        <div class="image-box">
-                            <figure class="image"><a href="news-details.html"><img src="{{ asset('images/resource/news-5.jpg') }}" alt></a></figure>
-                            <span class="date"><b>28</b> OCT</span>
-                        </div>
-                        <div class="content-box">
-                            <ul class="post-info">
-                                <li><i class="fa fa-user"></i> by Admin</li>
-                                <li><i class="fa fa-tag"></i> Technology</li>
-                            </ul>
-                            <h4 class="title"><a href="news-details.html">Strengthening the Energy Transition Across Asia</a></h4>
-                        </div>
-                        <div class="bottom-box">
-                            <a href="news-details.html" class="read-more">Read More <i class="fa fa-long-arrow-alt-right"></i></a>
-                            <div class="comments"><i class="fa fa-comments"></i> 02</div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="news-block col-lg-4 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay="600ms">
-                    <div class="inner-box">
-                        <div class="image-box">
-                            <figure class="image"><a href="news-details.html"><img src="{{ asset('images/resource/news-6.jpg') }}" alt></a></figure>
-                            <span class="date"><b>28</b> OCT</span>
-                        </div>
-                        <div class="content-box">
-                            <ul class="post-info">
-                                <li><i class="fa fa-user"></i> by Admin</li>
-                                <li><i class="fa fa-tag"></i> Technology</li>
-                            </ul>
-                            <h4 class="title"><a href="news-details.html">Advancing the Energy Transition Across</a></h4>
-                        </div>
-                        <div class="bottom-box">
-                            <a href="news-details.html" class="read-more">Read More <i class="fa fa-long-arrow-alt-right"></i></a>
-                            <div class="comments"><i class="fa fa-comments"></i> 02</div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
     <section class="call-to-action-three p-0">
         <div class="auto-container">
             <div class="outer-box">
@@ -544,7 +473,6 @@
             </div>
         </div>
     </section>
-
 
     <section class="map-section alternate pull-up">
         <iframe class="map" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=1%20Grafton%20Street,%20Dublin,%20Ireland+(My%20Business%20Name)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed">
