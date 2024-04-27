@@ -35,7 +35,7 @@ class AppServiceProvider extends ServiceProvider
      *
      * @return void
      */
-    public function boot()
+    public function boot(): void
     {
         Model::unguard();
 
@@ -44,7 +44,7 @@ class AppServiceProvider extends ServiceProvider
         $this->registerMigrationMacros();
         $this->registerApiResponseMacro();
         $this->registerCarbonMacro();
-        $this->registerSiteSetting();
+        //$this->registerSiteSetting();
 
         Paginator::useBootstrapFive();
     }
@@ -59,7 +59,7 @@ class AppServiceProvider extends ServiceProvider
         });
     }
 
-    public function registerCarbonMacro()
+    public function registerCarbonMacro(): void
     {
         Carbon::macro('greet', fn () => match (true) {
             ($hour = now()->format('H')) < 12 => 'Morning',
@@ -68,22 +68,23 @@ class AppServiceProvider extends ServiceProvider
         });
     }
 
-    public function registerMigrationMacros()
+    public function registerMigrationMacros(): void
     {
         Blueprint::macro('authors', function () {
+            /** @var Blueprint $this */
             $this->foreignId('created_by')->nullable()->constrained('users');
             $this->foreignId('updated_by')->nullable()->constrained('users');
         });
     }
 
-    public function registerSiteSetting()
+    public function registerSiteSetting(): void
     {
         $this->app->singleton(Setting::class, function () {
            return Cache::rememberForever('setting', fn () => Setting::firstOrFail());
         });
     }
 
-    public function registerCacheableApplicationModels()
+    public function registerCacheableApplicationModels(): void
     {
         $this->app->bind('categories',
             fn () => Category::latest('relevance')->withWhereHas('subCategories')->get() // Todo: Cache forever
@@ -102,7 +103,7 @@ class AppServiceProvider extends ServiceProvider
         );
     }
 
-    public function registerCustomBladeDirectives()
+    public function registerCustomBladeDirectives(): void
     {
         Blade::if('admin', function (?User $user = null) {
             return ($user ?? user())->isAdmin();
