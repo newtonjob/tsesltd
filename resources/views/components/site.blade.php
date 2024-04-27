@@ -7,13 +7,11 @@
     <link href="{{ asset('css/bootstrap.min.css') }}" rel="stylesheet">
     <link href="{{ asset('css/style.css') }}" rel="stylesheet">
     <link href="{{ asset('css/responsive.css') }}" rel="stylesheet">
-    <link rel="shortcut icon" href="{{ asset('images/favicon.png') }}" type="image/x-icon">
-    <link rel="icon" href="{{ asset('images/favicon.png') }}" type="image/x-icon">
+    <link rel="shortcut icon" href="{{ asset('favicon.png') }}" type="image/png">
+    <link rel="icon" href="{{ asset('favicon.png') }}" type="image/png">
 
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
-    <!--[if lt IE 9]><script src="js/html5shiv.js"></script><![endif]-->
-    <!--[if lt IE 9]><script src="js/respond.js"></script><![endif]-->
 </head>
 <body>
 <div class="page-wrapper">
@@ -32,9 +30,9 @@
                 </div>
                 <div class="top-right">
                     <ul class="useful-links">
-                        <li><a href="#"><i class="fas fa-envelope"></i> <span class="__cf_email__" data-cfemail="402e25252428252c3000232f2d30212e396e232f2d">[email&#160;protected]</span></a></li>
-                        <li><a href="#"><i class="fas fa-location-dot"></i> 88 Broklyn Golden Street. New York</a></li>
-                        <li><a href="#"><i class="fas fa-phone"></i> (603) 555-0123</a></li>
+                        <li><a href="javascript:"><i class="fas fa-envelope"></i> <span class="__cf_email__" data-cfemail="402e25252428252c3000232f2d30212e396e232f2d">[email&#160;protected]</span></a></li>
+                        <li><a href="javascript:"><i class="fas fa-location-dot"></i> 88 Broklyn Golden Street. New York</a></li>
+                        <li><a href="javascript:"><i class="fas fa-phone"></i> (603) 555-0123</a></li>
                     </ul>
                 </div>
             </div>
@@ -45,7 +43,7 @@
 
             <div class="main-box">
                 <div class="logo-box">
-                    <div class="logo"><a href="index.html"><img src="{{ asset('images/img.png') }}" alt></a></div>
+                    <div class="logo"><a href="{{ route('home') }}"><img src="{{ asset('images/img.png') }}" alt></a></div>
                 </div>
 
                 <div class="nav-outer">
@@ -53,14 +51,14 @@
                         <ul class="navigation">
                             <li class="current"><a href="{{ route('home') }}">Home</a></li>
                             <li><a href="{{ route('shop.index') }}">Shop</a></li>
-                            <li class="dropdown"><a href="#">Services</a>
+                            <li class="dropdown"><a href="javascript:">Services</a>
                                 <ul>
                                     <li><a href="page-services.html">Services List</a></li>
                                     <li><a href="page-service-details.html">Service Details</a></li>
                                 </ul>
                             </li>
-                            <li><a href="#">About Us</a></li>
-                            <li><a href="#">Contact Us</a></li>
+                            <li><a href="javascript:">About Us</a></li>
+                            <li><a href="javascript:">Contact Us</a></li>
                         </ul>
                     </nav>
 
@@ -85,7 +83,7 @@
 
             <nav class="menu-box">
                 <div class="upper-box">
-                    <div class="nav-logo"><a href="index.html"><img src="{{ asset('images/logo.png') }}" alt></a></div>
+                    <div class="nav-logo"><a href="{{ route('home') }}"><img src="{{ asset('images/logo.png') }}" alt></a></div>
                     <div class="close-btn"><i class="icon fa fa-times"></i></div>
                 </div>
                 <ul class="navigation clearfix">
@@ -105,7 +103,7 @@
                         <div class="contact-info-box">
                             <span class="icon lnr-icon-envelope1"></span>
                             <span class="title">Send Email</span>
-                            <a href="https://html.kodesolution.com/cdn-cgi/l/email-protection#78101d1408381b171508191601561b1715"><span class="__cf_email__" data-cfemail="1179747d6151727e7c61707f683f727e7c">[email&#160;protected]</span></a>
+                            <a href="mailto:"><span class="__cf_email__" data-cfemail="1179747d6151727e7c61707f683f727e7c">[email&#160;protected]</span></a>
                         </div>
                     </li>
                     <li>
@@ -118,10 +116,10 @@
                     </li>
                 </ul>
                 <ul class="social-links">
-                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                    <li><a href="#"><i class="fab fa-pinterest"></i></a></li>
-                    <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                    <li><a href="javascript:"><i class="fab fa-twitter"></i></a></li>
+                    <li><a href="javascript:"><i class="fab fa-facebook-f"></i></a></li>
+                    <li><a href="javascript:"><i class="fab fa-pinterest"></i></a></li>
+                    <li><a href="javascript:"><i class="fab fa-instagram"></i></a></li>
                 </ul>
             </nav>
         </div>
@@ -130,7 +128,7 @@
             <span class="search-back-drop"></span>
             <button class="close-search"><span class="fa fa-times"></span></button>
             <div class="search-inner">
-                <form method="post" action="https://html.kodesolution.com/2024/solen-html/index.html">
+                <form method="post" action="https://html.kodesolution.com/2024/solen-html/{{ route('home') }}">
                     <div class="form-group">
                         <input type="search" name="search-field" value placeholder="Search..." required>
                         <button type="submit"><i class="fa fa-search"></i></button>
@@ -145,7 +143,7 @@
                 <div class="inner-container">
 
                     <div class="logo">
-                        <a href="index.html"><img src="{{ asset('images/img.png') }}" alt></a>
+                        <a href="{{ route('home') }}"><img src="{{ asset('images/img.png') }}" alt></a>
                     </div>
 
                     <div class="nav-outer">
@@ -176,13 +174,12 @@
 
                     <div class="footer-column col-xl-3 col-lg-12 col-md-6 col-sm-12">
                         <div class="footer-widget about-widget">
-                            <div class="logo"><a href="index.html"><img src="{{ asset('images/img.png') }}" alt></a></div>
+                            <div class="logo"><a href="{{ route('home') }}"><img src="{{ asset('images/img.png') }}" alt></a></div>
                             <div class="text">Desires to obtain pain of itself, because it is pain, but occasionally circumstances.</div>
                             <ul class="social-icon-two">
-                                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                                <li><a href="#"><i class="fab fa-facebook"></i></a></li>
-                                <li><a href="#"><i class="fab fa-pinterest"></i></a></li>
-                                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                                <li><a href="javascript:"><i class="fab fa-twitter"></i></a></li>
+                                <li><a href="javascript:"><i class="fab fa-facebook"></i></a></li>
+                                <li><a href="javascript:"><i class="fab fa-instagram"></i></a></li>
                             </ul>
                         </div>
                     </div>
@@ -191,11 +188,11 @@
                         <div class="footer-widget">
                             <h3 class="widget-title">Explore</h3>
                             <ul class="user-links">
-                                <li><a href="#">About Company</a></li>
-                                <li><a href="#">Meet the Team</a></li>
-                                <li><a href="#">News & Media</a></li>
-                                <li><a href="#">Our Projects</a></li>
-                                <li><a href="#">Contact</a></li>
+                                <li><a href="javascript:">About Company</a></li>
+                                <li><a href="javascript:">Meet the Team</a></li>
+                                <li><a href="javascript:">News & Media</a></li>
+                                <li><a href="javascript:">Our Projects</a></li>
+                                <li><a href="javascript:">Contact</a></li>
                             </ul>
                         </div>
                     </div>
@@ -219,22 +216,22 @@
                             <div class="widget-content">
                                 <div class="outer clearfix">
                                     <figure class="image">
-                                        <a href="#"><img src="{{ asset('images/resource/project-thumb-1.jpg') }}" alt></a>
+                                        <a href="javascript:"><img src="{{ asset('images/resource/project-thumb-1.jpg') }}" alt></a>
                                     </figure>
                                     <figure class="image">
-                                        <a href="#"><img src="{{ asset('images/resource/project-thumb-2.jpg') }}" alt></a>
+                                        <a href="javascript:"><img src="{{ asset('images/resource/project-thumb-2.jpg') }}" alt></a>
                                     </figure>
                                     <figure class="image">
-                                        <a href="#"><img src="{{ asset('images/resource/project-thumb-3.jpg') }}" alt></a>
+                                        <a href="javascript:"><img src="{{ asset('images/resource/project-thumb-3.jpg') }}" alt></a>
                                     </figure>
                                     <figure class="image">
-                                        <a href="#"><img src="{{ asset('images/resource/project-thumb-4.jpg') }}" alt></a>
+                                        <a href="javascript:"><img src="{{ asset('images/resource/project-thumb-4.jpg') }}" alt></a>
                                     </figure>
                                     <figure class="image">
-                                        <a href="#"><img src="{{ asset('images/resource/project-thumb-5.jpg') }}" alt></a>
+                                        <a href="javascript:"><img src="{{ asset('images/resource/project-thumb-5.jpg') }}" alt></a>
                                     </figure>
                                     <figure class="image">
-                                        <a href="#"><img src="{{ asset('images/resource/project-thumb-6.jpg') }}" alt></a>
+                                        <a href="javascript:"><img src="{{ asset('images/resource/project-thumb-6.jpg') }}" alt></a>
                                     </figure>
                                 </div>
                             </div>
@@ -247,7 +244,7 @@
         <div class="footer-bottom">
             <div class="auto-container">
                 <div class="inner-container">
-                    <div class="copyright-text">&copy; Copyright reserved by <a href="index.html">kodesolution.com</a>
+                    <div class="copyright-text">&copy; Copyright reserved by <a href="{{ route('home') }}">{{ request()->host() }}</a>
                     </div>
                 </div>
             </div>
