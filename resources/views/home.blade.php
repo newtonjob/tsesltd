@@ -13,11 +13,11 @@
                         <div class="btn-box d-block d-sm-flex align-items-center wow fadeInUp" data-wow-delay="800ms">
                             <a href="page-about.html" class="theme-btn btn-style-one mb-3 mb-sm-0"><span class="btn-title">Discover More</span></a>
                             <div class="inner-box">
-                                <a class="d-sm-flex align-items-center" href="tel:+8898006802">
+                                <a class="d-sm-flex align-items-center" href="tel:+2348099555550">
                                     <span class="icon fas fa-phone-flip"></span>
                                     <span>
                                         <span class="ib-subtitle">Call Anytime</span>
-                                        <span class="ib-title">{{ site('phone') }}</span>
+                                        <span class="ib-title">+2348099555550</span>
                                     </span>
                                 </a>
                             </div>
@@ -474,8 +474,8 @@
         </div>
     </section>
 
-    <section class="map-section alternate pull-up">
+    {{--<section class="map-section alternate pull-up">
         <iframe class="map" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=1%20Grafton%20Street,%20Dublin,%20Ireland+(My%20Business%20Name)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed">
         </iframe>
-    </section>
+    </section>--}}
 </x-site>

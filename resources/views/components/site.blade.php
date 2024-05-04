@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>Solen - Ecology & Solar Energy HTML Template | Home Page 02</title>
+    <title>TSES - Technical Security Services, Construction and Supplies</title>
 
     <link href="{{ asset('css/bootstrap.min.css') }}" rel="stylesheet">
     <link href="{{ asset('css/style.css') }}" rel="stylesheet">
@@ -25,14 +25,18 @@
                 <div class="top-left">
 
                     <ul class="list-style-one">
-                        <li><i class="fa-solid fa-square fa-fw"></i> Welcome To The Solar And Wind Energy Company</li>
+                        <li><i class="fa-solid fa-square fa-fw"></i> Technical Services and Equipment Solutions Limited</li>
                     </ul>
                 </div>
                 <div class="top-right">
                     <ul class="useful-links">
-                        <li><a href="javascript:"><i class="fas fa-envelope"></i> <span class="__cf_email__" data-cfemail="402e25252428252c3000232f2d30212e396e232f2d">[email&#160;protected]</span></a></li>
-                        <li><a href="javascript:"><i class="fas fa-location-dot"></i> 88 Broklyn Golden Street. New York</a></li>
-                        <li><a href="javascript:"><i class="fas fa-phone"></i> (603) 555-0123</a></li>
+                        <li><a href="mailto:info@tsesltd.com"><i class="fas fa-envelope"></i>info@tsesltd.com</a></li>
+                        <li>
+                            <a href="javascript:">
+                                <i class="fas fa-location-dot"></i>20 Baale Street. Igboefon  Lekki Epe Epress. Lekki Lagos Nigeria
+                            </a>
+                        </li>
+                        <li><a href="tel:+2348099555550"><i class="fas fa-phone"></i>+2348099555550</a></li>
                     </ul>
                 </div>
             </div>
@@ -175,7 +179,7 @@
                     <div class="footer-column col-xl-3 col-lg-12 col-md-6 col-sm-12">
                         <div class="footer-widget about-widget">
                             <div class="logo"><a href="{{ route('home') }}"><img src="{{ asset('images/img.png') }}" alt></a></div>
-                            <div class="text">Desires to obtain pain of itself, because it is pain, but occasionally circumstances.</div>
+                            <div class="text">Technical Services and Equipment Solutions Limited</div>
                             <ul class="social-icon-two">
                                 <li><a href="javascript:"><i class="fab fa-twitter"></i></a></li>
                                 <li><a href="javascript:"><i class="fab fa-facebook"></i></a></li>
@@ -201,10 +205,10 @@
                         <div class="footer-widget contact-widget">
                             <h3 class="widget-title">Contact</h3>
                             <div class="widget-content">
-                                <div class="text">66 Road Broklyn Street, 600 New York, USA</div>
+                                <div class="text">20 Baale Street. Igboefon  Lekki Epe Epress. Lekki Lagos Nigeria</div>
                                 <ul class="contact-info">
-                                    <li><i class="fa fa-envelope"></i> <a href="https://html.kodesolution.com/cdn-cgi/l/email-protection#08666d6d6c606d64784871677d7a6c6765696166266b6765"><span class="__cf_email__" data-cfemail="fe909b9b9a969b928ebe9d91938e9f9087d09d9193">[email&#160;protected]</span></a><br></li>
-                                    <li><i class="fa fa-phone-square"></i> <a href="tel:+926668880000">+92 666 888 0000</a><br></li>
+                                    <li><i class="fa fa-envelope"></i> <a href="mailto:info@tsesltd.com">info@tsesltd.com</a><br></li>
+                                    <li><i class="fa fa-phone-square"></i> <a href="tel:+926668880000">+234 8099 555 550</a><br></li>
                                 </ul>
                             </div>
                         </div>

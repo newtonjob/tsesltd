@@ -12,11 +12,7 @@ class HomeController extends Controller
         $discountedProducts = Product::discounted()->whereHas('image')->get();
         $latestProducts     = Product::latest()->whereHas('image')->take(12)->get();
         $bestSellers        = Product::whereHas('image')->withCount('orders')->latest('orders_count')->take(20)->get();
-        $televisionSubCategory  = SubCategory::television()->with([
-            'products' => fn ($query) => $query->whereHas('image'), 'brands'
-        ])->first();
 
-        return view('home', compact('discountedProducts', 'bestSellers', 'latestProducts', 'televisionSubCategory'));
+        return view('home', compact(['discountedProducts', 'bestSellers', 'latestProducts']));
     }
-
 }
