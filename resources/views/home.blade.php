@@ -8,10 +8,16 @@
 
                 <div class="content-column mb-lg-50 col-xl-6">
                     <div class="inner-column container-fluid">
-                        <div class="sub-title wow fadeInUp" data-wow-delay="200ms">We Are Solar Energy Company</div>
-                        <h1 class="title wow fadeInUp" data-wow-delay="400ms">Harnessing the <br class="d-none d-xl-block">Energy from <br class="d-none d-xl-block"> The Sun.</h1>
+                        <div class="sub-title wow fadeInUp" data-wow-delay="200ms">
+                            We are TSES!
+                        </div>
+                        <h1 class="title wow fadeInUp" data-wow-delay="400ms">
+                            We manage  <br class="d-none d-xl-block">your technical infrastructure.
+                        </h1>
                         <div class="btn-box d-block d-sm-flex align-items-center wow fadeInUp" data-wow-delay="800ms">
-                            <a href="page-about.html" class="theme-btn btn-style-one mb-3 mb-sm-0"><span class="btn-title">Discover More</span></a>
+                            <a href="#features" class="theme-btn btn-style-one mb-3 mb-sm-0">
+                                <span class="btn-title">Discover More</span>
+                            </a>
                             <div class="inner-box">
                                 <a class="d-sm-flex align-items-center" href="tel:+2348099555550">
                                     <span class="icon fas fa-phone-flip"></span>
@@ -39,57 +45,60 @@
     </section>
 
 
-    <section class="features-section-two">
+    <section class="features-section-two" id="features">
         <div class="auto-container">
             <div class="row justify-content-center">
+                <div class="feature-block-two col-xl-2 col-lg-3 col-md-4 col-sm-6 wow fadeInUp">
+                    <div class="inner-box ">
+                        <i class="icon flaticon-system"></i>
+                        <h6 class="title"><a href="#about">Data Centers</a></h6>
+                    </div>
+                </div>
 
                 <div class="feature-block-two col-xl-2 col-lg-3 col-md-4 col-sm-6 wow fadeInUp">
                     <div class="inner-box ">
                         <i class="icon flaticon-solar-energy-3"></i>
-                        <h6 class="title"><a href="page-service-details.html">Solar Solutions</a></h6>
+                        <h6 class="title"><a href="#about">Solar Solutions</a></h6>
                     </div>
                 </div>
 
                 <div class="feature-block-two col-xl-2 col-lg-3 col-md-4 col-sm-6 wow fadeInUp">
                     <div class="inner-box ">
                         <i class="icon flaticon-wind-turbine"></i>
-                        <h6 class="title"><a href="page-service-details.html">Wind Turbine</a></h6>
+                        <h6 class="title"><a href="#about">Wind Turbine</a></h6>
                     </div>
                 </div>
 
                 <div class="feature-block-two col-xl-2 col-lg-3 col-md-4 col-sm-6 wow fadeInUp">
                     <div class="inner-box ">
                         <i class="icon flaticon-solar-panel"></i>
-                        <h6 class="title"><a href="page-service-details.html">Renewable Flow</a></h6>
+                        <h6 class="title"><a href="#about">Renewable Flow</a></h6>
                     </div>
                 </div>
 
                 <div class="feature-block-two col-xl-2 col-lg-3 col-md-4 col-sm-6 wow fadeInUp">
                     <div class="inner-box ">
                         <i class="icon flaticon-solar-energy"></i>
-                        <h6 class="title"><a href="page-service-details.html">Energy Transition</a></h6>
+                        <h6 class="title"><a href="#about">Energy Transition</a></h6>
                     </div>
                 </div>
 
                 <div class="feature-block-two col-xl-2 col-lg-3 col-md-4 col-sm-6 wow fadeInUp">
                     <div class="inner-box ">
                         <i class="icon flaticon-solar-panel-1"></i>
-                        <h6 class="title"><a href="page-service-details.html">Solar Field</a></h6>
-                    </div>
-                </div>
-
-                <div class="feature-block-two col-xl-2 col-lg-3 col-md-4 col-sm-6 wow fadeInUp">
-                    <div class="inner-box ">
-                        <i class="icon flaticon-smart-house"></i>
-                        <h6 class="title"><a href="page-service-details.html">Robust Energy</a></h6>
+                        <h6 class="title"><a href="#about">Solar Field</a></h6>
                     </div>
                 </div>
             </div>
-            <div class="bottom-text">We Produce High quality Solar Panel Services For you <a href="page-services.html" class="theme-btn btn-style-one small"><span class="btn-title">Find Your Solution</span></a></div>
+
+            <div class="bottom-text">
+                We Produce High quality Solar Panel Services For you
+                <a href="" class="theme-btn btn-style-one small"><span class="btn-title">Find Your Solution</span></a>
+            </div>
         </div>
     </section>
 
-    <section class="about-section-three">
+    <section class="about-section-three" id="about">
         <div class="anim-icons d-none d-xl-block">
             <span class="icon icon-dots-2 bounce-y"></span>
         </div>
@@ -99,7 +108,7 @@
                     <div class="inner-column">
                         <div class="sec-title">
                             <span class="sub-title">About Our Company</span>
-                            <h4>Our Mission is to provide cutting-edge technical solutions that enhance the capabilities of our clients, ensuring their operations are efficient, secure, and sustainable.</h4>
+                            <h4>Our mission is to provide cutting-edge technical solutions that enhance the capabilities of our clients, ensuring their operations are efficient, secure, and sustainable.</h4>
                             <h5>The professional approach to technology.</h5>
                             {{--<div class="text">System is a term used to refer to an organized collection symbols and processes that may be used to operate on such symbols. Perspiciatis omnis natus error voupems accusa</div>--}}
                         </div>
@@ -115,25 +124,8 @@
                                 </div>
                             </div>--}}
 
-                            <div class="skills">
-
-                                <div class="skill-item">
-                                    <div class="skill-header">
-                                        <h6 class="skill-title">Renewal Energy</h6>
-                                    </div>
-                                    <div class="skill-bar">
-                                        <div class="bar-inner">
-                                            <div class="bar progress-line" data-width="77">
-                                                <div class="skill-percentage">
-                                                    <div class="count-box"><span class="count-text" data-speed="3000" data-stop="77">0</span>%</div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
                             <div class="btn-box">
-                                <a href="page-about.html" class="theme-btn btn-style-one"><span class="btn-title">Discover More</span></a>
+                                <a href="#services" class="theme-btn btn-style-one"><span class="btn-title">Discover More</span></a>
                             </div>
                         </div>
                     </div>
@@ -149,7 +141,7 @@
         </div>
     </section>
 
-    <section class="pt-70" style="background-color: #f4f5f8">
+    <section class="pt-70" style="background-color: #f4f5f8; display: none">
         <div class="auto-container">
             <div class="sec-title text-center mb--20">
                 <span class="sub-title">Some Of Our Products</span>
@@ -178,7 +170,7 @@
         </div>
     </section>
 
-    <section class="project-section-two">
+    <section class="project-section-two" id="services">
         <div class="auto-container">
             <div class="sec-title text-center">
                 <span class="sub-title">Our Engineering Services</span>
@@ -191,12 +183,15 @@
                     <div class="project-block-two">
                         <div class="inner-box">
                             <div class="image-box">
-                                <figure class="image"><a href="images/resource/project-5.jpg') }}" class="lightbox-image"><img src="{{ asset('images/resource/project-5.jpg') }}" alt></a></figure>
+                                <figure class="image"><a href="/images/resource/project-5.jpg" class="lightbox-image"><img src="{{ asset('images/resource/project-5.jpg') }}" alt></a></figure>
                             </div>
                             <div class="content-box">
-                                <h5 class="title"><a href="page-project-details.html">Solar Solutions</a></h5>
+                                <h5 class="title"><a href="javascript:">Solar Solutions</a></h5>
                                 <span class="cat">SOLAR</span>
-                                <a href="page-project-details.html" class="icon"><i class="fa fa-long-arrow-alt-right"></i></a>
+
+                                <a href="#" class="icon" style="display: none">
+                                    <i class="fa fa-long-arrow-alt-right"></i>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -204,12 +199,15 @@
                     <div class="project-block-two">
                         <div class="inner-box">
                             <div class="image-box">
-                                <figure class="image"><a href="images/resource/project-6.jpg') }}" class="lightbox-image"><img src="{{ asset('images/resource/project-6.jpg') }}" alt></a></figure>
+                                <figure class="image"><a href="/images/resource/project-6.jpg" class="lightbox-image"><img src="{{ asset('images/resource/project-6.jpg') }}" alt></a></figure>
                             </div>
                             <div class="content-box">
-                                <h5 class="title"><a href="page-project-details.html">Turbine Solutions</a></h5>
+                                <h5 class="title"><a href="javascript:">Turbine Solutions</a></h5>
                                 <span class="cat">WIND</span>
-                                <a href="page-project-details.html" class="icon"><i class="fa fa-long-arrow-alt-right"></i></a>
+
+                                <a href="#" class="icon" style="display: none">
+                                    <i class="fa fa-long-arrow-alt-right"></i>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -217,12 +215,15 @@
                     <div class="project-block-two">
                         <div class="inner-box">
                             <div class="image-box">
-                                <figure class="image"><a href="images/resource/project-7.jpg') }}" class="lightbox-image"><img src="{{ asset('images/resource/project-7.jpg') }}" alt></a></figure>
+                                <figure class="image"><a href="/images/resource/project-7.jpg" class="lightbox-image"><img src="{{ asset('images/resource/project-7.jpg') }}" alt></a></figure>
                             </div>
                             <div class="content-box">
-                                <h5 class="title"><a href="page-project-details.html">Hydropower</a></h5>
+                                <h5 class="title"><a href="javascript:">Hydropower</a></h5>
                                 <span class="cat">SOLARIS</span>
-                                <a href="page-project-details.html" class="icon"><i class="fa fa-long-arrow-alt-right"></i></a>
+
+                                <a href="#" class="icon" style="display: none">
+                                    <i class="fa fa-long-arrow-alt-right"></i>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -240,13 +241,13 @@
                 <div class="content-column col-lg-6 col-md-12">
                     <div class="inner-column">
                         <div class="sec-title light">
-                            <span class="sub-title text-white">Welcome to TSES</span>
-                            <h2>Your Success with the Best Solar Services</h2>
+                            <span class="sub-title text-white">We do a lot more!</span>
+                            <h2>Your Success with the Best Data Centers</h2>
                         </div>
                         <div class="info-box">
                             <span class="count">1</span>
                             <div class="text-white"><span class="fw-bold">Smart Energy Expertise: </span>
-                                We integrate cutting-edge smart energy technologies into our solar projects, optimizing performance, maximizing efficiency, and ensuring long-term system health.</div>
+                                We integrate cutting-edge smart energy technologies into our data center projects, optimizing performance, maximizing efficiency, and ensuring long-term system health.</div>
                         </div>
                         <div class="info-box">
                             <span class="count">2</span>
@@ -279,67 +280,25 @@
         </div>
     </section>
 
-
-    <section class="fun-fact-section-two">
-        <div class="auto-container">
-            <div class="fact-counter">
-                <div class="row">
-                    <div class="counter-block-two col-lg-3 col-md-6 wow fadeInUp">
-                        <div class="inner">
-                            <i class="icon flaticon-green-earth"></i>
-                            <div class="count-box"><span class="count-text" data-speed="3000" data-stop="4524">0</span>
-                            </div>
-                            <h6 class="counter-title">Project completed</h6>
-                        </div>
-                    </div>
-
-                    <div class="counter-block-two col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="200ms">
-                        <div class="inner">
-                            <i class="icon flaticon-green-earth"></i>
-                            <div class="count-box"><span class="count-text" data-speed="3000" data-stop="1500">0</span></div>
-                            <h6 class="counter-title">IT specialists</h6>
-                        </div>
-                    </div>
-
-                    <div class="counter-block-two col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="400ms">
-                        <div class="inner">
-                            <i class="icon flaticon-wellness-logo"></i>
-                            <div class="count-box"><span class="count-text" data-speed="3000" data-stop="2500">0</span>
-                            </div>
-                            <h6 class="counter-title">Satisfied clients</h6>
-                        </div>
-                    </div>
-
-                    <div class="counter-block-two col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="600ms">
-                        <div class="inner">
-                            <i class="icon flaticon-save"></i>
-                            <div class="count-box"><span class="count-text" data-speed="3000" data-stop="1000">0</span></div>
-                            <h6 class="counter-title">Smart solutions</h6>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-
     <section class="about-section-four">
         <div class="auto-container">
             <div class="row">
                 <div class="content-column col-lg-6 col-md-12 col-sm-12 order-2 wow fadeInRight" data-wow-delay="600ms">
                     <div class="inner-column">
                         <div class="sec-title">
-                            <span class="sub-title">About Our Company</span>
-                            <h4>Our Vision To be the leading provider of innovative engineering and technology solutions in Nigeria and beyond</h4>
+                            <span class="sub-title">The Vision</span>
+                            <h4>Our vision is be the leading provider of innovative engineering and technology solutions in Nigeria and beyond.</h4>
                             <div class="text">Contributing to the advancement of our communities through renewable energy and secure, efficient technological systems.</div>
                         </div>
                         <blockquote class="blockquote-style-one">Implementing our 35+ years of expertise in power supply and renewable energy solutions.</blockquote>
                         <div class="btn-box d-flex">
-                            <a href="page-about.html" class="theme-btn btn-style-one"><span class="btn-title">Discover more</span></a>
+                            <a href="mailto:info@tsesltd.com" class="theme-btn btn-style-one">
+                                <span class="btn-title">Reach out</span>
+                            </a>
                             <div class="founder-info mx-auto">
                                 <div class="thumb"><img src="{{ asset('images/resource/thumb-1.jpg') }}" alt></div>
-                                <h5 class="name">Jon Martin</h5>
-                                <span class="designation">Co Founder</span>
+                                <h5 class="name">Ben Nwosu</h5>
+                                <span class="designation">CEO</span>
                             </div>
                         </div>
                     </div>
@@ -357,63 +316,6 @@
         </div>
     </section>
 
-
-    <section class="clients-section alternate">
-        <div class="auto-container">
-
-            <div class="sponsors-outer">
-
-                <ul class="clients-carousel owl-carousel owl-theme">
-                    <li class="slide-item"> <a href="#"><img src="{{ asset('images/resource/client-2.png') }}" alt></a> </li>
-                    <li class="slide-item"> <a href="#"><img src="{{ asset('images/resource/client-3.png') }}" alt></a> </li>
-                    <li class="slide-item"> <a href="#"><img src="{{ asset('images/resource/client-4.png') }}" alt></a> </li>
-                    <li class="slide-item"> <a href="#"><img src="{{ asset('images/resource/client-5.png') }}" alt></a> </li>
-                    <li class="slide-item"> <a href="#"><img src="{{ asset('images/resource/client-6.png') }}" alt></a> </li>
-                </ul>
-            </div>
-        </div>
-    </section>
-
-    <section class="features-section-three">
-        <div class="carousel-outer">
-            <div class="features-carousel owl-carousel owl-theme">
-
-                <div class="feature-block-three">
-                    <div class="inner-box ">
-                        <figure class="image">
-                            <a href="page-about.html"><img src="{{ asset('images/resource/feature-1.jpg') }}" alt></a>
-                            <span class="icon">S</span>
-                        </figure>
-                        <h4 class="title"><a href="page-about.html">Solar Projects</a></h4>
-                        <div class="text">Sed non odio non elit porttitor Donec fermentum, elit sit amet gravida molestie, orci dui</div>
-                    </div>
-                </div>
-
-                <div class="feature-block-three">
-                    <div class="inner-box ">
-                        <figure class="image">
-                            <a href="page-about.html"><img src="{{ asset('images/resource/feature-2.jpg') }}" alt></a>
-                            <span class="icon">T</span>
-                        </figure>
-                        <h4 class="title"><a href="page-about.html">Turbine Solutions</a></h4>
-                        <div class="text">Sed non odio non elit porttitor Donec fermentum, elit sit amet gravida molestie, orci dui</div>
-                    </div>
-                </div>
-
-                <div class="feature-block-three">
-                    <div class="inner-box ">
-                        <figure class="image">
-                            <a href="page-about.html"><img src="{{ asset('images/resource/feature-3.jpg') }}" alt></a>
-                            <span class="icon">S</span>
-                        </figure>
-                        <h4 class="title"><a href="page-about.html">Solar Panel</a></h4>
-                        <div class="text">Sed non odio non elit porttitor Donec fermentum, elit sit amet gravida molestie, orci dui</div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
     <section class="services-section-two">
         <div class="auto-container">
             <div class="sec-title light text-center">
@@ -425,8 +327,8 @@
                     <div class="service-block-two mb-md-50">
                         <div class="inner-box">
                             <div class="icon flaticon-solar-energy-3"></div>
-                            <h4 class="title"><a href="page-service-details.html">Solar Panel</a></h4>
-                            <p class="text">Taking seamless key performance indicators offline to maximise the tail</p>
+                            <h4 class="title"><a href="#about">Solar Panel</a></h4>
+                            <p class="text" style="display: none">Taking seamless key performance indicators offline to maximise the tail</p>
                         </div>
                     </div>
                 </div>
@@ -434,8 +336,8 @@
                     <div class="service-block-two mb-md-50">
                         <div class="inner-box">
                             <div class="icon flaticon-settings"></div>
-                            <h4 class="title"><a href="page-service-details.html">Consultancy</a></h4>
-                            <p class="text">Taking seamless key performance indicators offline to maximise the tail</p>
+                            <h4 class="title"><a href="#about">Data Centers</a></h4>
+                            <p class="text" style="display: none">Taking seamless key performance indicators offline to maximise the tail</p>
                         </div>
                     </div>
                 </div>
@@ -443,8 +345,8 @@
                     <div class="service-block-two mb-md-50">
                         <div class="inner-box">
                             <div class="icon flaticon-settings-1"></div>
-                            <h4 class="title"><a href="page-service-details.html">Hydropower</a></h4>
-                            <p class="text">Taking seamless key performance indicators offline to maximise the tail</p>
+                            <h4 class="title"><a href="#about">Hydropower</a></h4>
+                            <p class="text" style="display: none">Taking seamless key performance indicators offline to maximise the tail</p>
                         </div>
                     </div>
                 </div>
@@ -452,8 +354,8 @@
                     <div class="service-block-two mb-md-50">
                         <div class="inner-box">
                             <div class="icon flaticon-smart-house"></div>
-                            <h4 class="title"><a href="page-service-details.html">Fossil Resources</a></h4>
-                            <p class="text">Taking seamless key performance indicators offline to maximise the tail</p>
+                            <h4 class="title"><a href="#about">Fossil Resources</a></h4>
+                            <p class="text" style="display: none">Taking seamless key performance indicators offline to maximise the tail</p>
                         </div>
                     </div>
                 </div>
@@ -465,10 +367,10 @@
         <div class="auto-container">
             <div class="outer-box">
                 <div class="title-box">
-                    <h4 class="title">Get Free Consultancy or +1 (800) 123 446 559</h4>
+                    <h4 class="title">Get a Free Consultancy: +2348099555550</h4>
                 </div>
                 <div class="btn-box">
-                    <a href="page-services.html" class="theme-btn btn-style-two"><span class="btn-title">get solution</span></a>
+                    <a href="tel:+2348099555550" class="theme-btn btn-style-two"><span class="btn-title">Give us a call</span></a>
                 </div>
             </div>
         </div>
