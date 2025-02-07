@@ -296,7 +296,7 @@
                                 <span class="btn-title">Reach out</span>
                             </a>
                             <div class="founder-info mx-auto">
-                                <div class="thumb"><img src="{{ asset('images/resource/thumb-1.jpg') }}" alt></div>
+                                <div class="thumb"><img src="https://res.cloudinary.com/bensu/image/upload/c_fill,g_face,h_220,w_220/v1/bensu/user/photo-5e8b574daac93.jpg" alt="ceo"></div>
                                 <h5 class="name">Ben Nwosu</h5>
                                 <span class="designation">CEO</span>
                             </div>
@@ -308,7 +308,7 @@
                     <div class="inner-column wow fadeInLeft">
                         <span class="float-text">TSES</span>
                         <figure class="image-1 overlay-anim wow fadeInUp"><img src="{{ asset('images/resource/about-7.jpg') }}" alt></figure>
-                        <figure class="image-2 overlay-anim wow fadeInRight"><img src="{{ asset('images/resource/about-8.jpg') }}" alt></figure>
+                        <figure class="image-2 overlay-anim wow fadeInRight"><img src="{{ asset('images/resource/data.jpg') }}" alt></figure>
                         <div class="icon-box"><img src="{{ asset('images/img.png') }}" alt></div>
                     </div>
                 </div>
