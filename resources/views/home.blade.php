@@ -44,7 +44,6 @@
         </div>
     </section>
 
-
     <section class="features-section-two" id="features">
         <div class="auto-container">
             <div class="row justify-content-center">
@@ -58,35 +57,35 @@
                 <div class="feature-block-two col-xl-2 col-lg-3 col-md-4 col-sm-6 wow fadeInUp">
                     <div class="inner-box ">
                         <i class="icon flaticon-solar-energy-3"></i>
-                        <h6 class="title"><a href="#about">Solar Solutions</a></h6>
+                        <h6 class="title"><a href="#about"> IT Infrastructure</a></h6>
                     </div>
                 </div>
 
                 <div class="feature-block-two col-xl-2 col-lg-3 col-md-4 col-sm-6 wow fadeInUp">
                     <div class="inner-box ">
-                        <i class="icon flaticon-wind-turbine"></i>
-                        <h6 class="title"><a href="#about">Wind Turbine</a></h6>
+                        <i class="icon flaticon-computer"></i>
+                        <h6 class="title"><a href="#about">Software Solutions</a></h6>
                     </div>
                 </div>
 
                 <div class="feature-block-two col-xl-2 col-lg-3 col-md-4 col-sm-6 wow fadeInUp">
                     <div class="inner-box ">
                         <i class="icon flaticon-solar-panel"></i>
-                        <h6 class="title"><a href="#about">Renewable Flow</a></h6>
+                        <h6 class="title"><a href="#about">Renewable Energy</a></h6>
                     </div>
                 </div>
 
                 <div class="feature-block-two col-xl-2 col-lg-3 col-md-4 col-sm-6 wow fadeInUp">
                     <div class="inner-box ">
-                        <i class="icon flaticon-solar-energy"></i>
-                        <h6 class="title"><a href="#about">Energy Transition</a></h6>
+                        <i class="icon flaticon-fire"></i>
+                        <h6 class="title"><a href="#about">Fire Suppression</a></h6>
                     </div>
                 </div>
 
                 <div class="feature-block-two col-xl-2 col-lg-3 col-md-4 col-sm-6 wow fadeInUp">
                     <div class="inner-box ">
-                        <i class="icon flaticon-solar-panel-1"></i>
-                        <h6 class="title"><a href="#about">Solar Field</a></h6>
+                        <i class="icon flaticon-security"></i>
+                        <h6 class="title"><a href="#about">Access Control systems</a></h6>
                     </div>
                 </div>
             </div>
