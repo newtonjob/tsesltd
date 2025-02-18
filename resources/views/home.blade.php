@@ -109,7 +109,6 @@
                             <span class="sub-title">About Our Company</span>
                             <h4>Our mission is to provide cutting-edge technical solutions that enhance the capabilities of our clients, ensuring their operations are efficient, secure, and sustainable.</h4>
                             <h5>The professional approach to technology.</h5>
-                            {{--<div class="text">System is a term used to refer to an organized collection symbols and processes that may be used to operate on such symbols. Perspiciatis omnis natus error voupems accusa</div>--}}
                         </div>
                         <div class="content-box">
                             {{--<div class="row">
@@ -287,7 +286,12 @@
                         <div class="sec-title">
                             <span class="sub-title">The Vision</span>
                             <h4>Our vision is be the leading provider of innovative engineering and technology solutions in Nigeria and beyond.</h4>
-                            <div class="text">Contributing to the advancement of our communities through renewable energy and secure, efficient technological systems.</div>
+
+                            <div class="text">
+                                <div class="text">
+                                    Technical Services and Equipment Solutions Ltd (TSES) is a homegrown technology company with several years of experience in the design, installation, and setup of both military and civilian technology infrastructure and applications. We have partnered with both private and public organizations to build, construct, install, and implement bespoke infrastructure and applications to achieve organizational objectives. TSES is head by its CEO Engr. Benneth Nwosu (B.Eng, Msc) and COO Engr. Jochebed Osirike (B.Eng, M.Eng, MSc).
+                                </div>
+                            </div>
                         </div>
                         <blockquote class="blockquote-style-one">Implementing our 35+ years of expertise in power supply and renewable energy solutions.</blockquote>
                         <div class="btn-box d-flex">
