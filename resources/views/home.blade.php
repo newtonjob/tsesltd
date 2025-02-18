@@ -266,11 +266,11 @@
                     <div class="inner-column">
                         <div class="image-box">
                             <figure class="image"><img src="{{ asset('images/resource/image-7.jpg') }}" alt></figure>
-                            <div class="video-box wow fadeIn">
+                            {{--<div class="video-box wow fadeIn">
                                 <h4 class="title">Watch our video</h4>
                                 <img class="arrow-icon" src="{{ asset('images/icons/icon-arrow.png') }}" alt>
                                 <a href="https://www.youtube.com/watch?v=Fvae8nxzVz4" class="play-btn lightbox-image"><i class="icon fa fa-play"></i></a>
-                            </div>
+                            </div>--}}
                         </div>
                     </div>
                 </div>

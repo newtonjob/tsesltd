@@ -66,8 +66,9 @@
                                 </li>
                             @endif
 
-                            <li><a href="#about">About</a></li>
-                            <li><a href="#footer">Contact</a></li>
+                            <li><a href="/projects">Projects</a></li>
+                            <li><a href="/about">About</a></li>
+                            <li><a href="/#footer">Contact</a></li>
                         </ul>
                     </nav>
 
@@ -81,7 +82,7 @@
                             </div>
                         @endif
 
-                        <a href="#footer" class="theme-btn btn-style-one"><span class="btn-title">get solution</span></a>
+                        <a href="#footer" class="theme-btn btn-style-one"><span class="btn-title">Get a solution</span></a>
 
                         <div class="mobile-nav-toggler"><span class="icon lnr-icon-bars"></span></div>
                     </div>

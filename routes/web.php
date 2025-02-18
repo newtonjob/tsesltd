@@ -44,8 +44,8 @@ Route::get('/oauth/{provider}/redirect',  [OAuthController::class, 'store'])->na
 
 Route::view('/pos',         'pos')->name('pos')->can('point-of-sale');
 Route::view('/stores',      'stores')->name('stores');
-Route::view('/about-us',    'about-us')->name('about-us');
-Route::view('/contact-us',  'contact-us')->name('contact-us');
+Route::view('/projects',    'projects')->name('projects');
+Route::view('/about',  'about')->name('about');
 
 Route::view('/cart',     'cart')->name('cart')->middleware('cart.filled');
 Route::view('/checkout', 'checkout')->name('checkout')->middleware('cart.filled');
